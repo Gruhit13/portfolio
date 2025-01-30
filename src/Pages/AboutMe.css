@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Group 1: About Me & Projects */
+.group1-btn {
+  background-color: #374151; /* Gray-700 */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.group1-btn:hover {
+  background-color: #4b5563; /* Gray-600 */
+}
+
+/* Group 2: Download Resume */
+.group2-btn {
+  background-color: transparent;
+  border: 2px solid crimson;
+  color: crimson;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.group2-btn:hover {
+  background-color: crimson;
+  color: white;
+}
+
+/* Group 3: Contact Me */
+.group3-btn {
+  background-color: #52525b; /* Slightly lighter than body */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.group3-btn:hover {
+  background-color: #71717a; /* Slightly lighter hover */
+}
